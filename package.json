@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dsnod93.gtihub.io/react-port",
+  "homepage": "https://dsnod93.github.io/react-port",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,8 +12,8 @@
     "react-scripts": "^1.1.5"
   },
   "scripts": {
-    "predeploy":"yarn build",
-    "deploy":"gh-pages -d build",  
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -b main -d build",  
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
